@@ -54,13 +54,13 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
       const saved = localStorage.getItem('emporio_settings');
       return saved ? JSON.parse(saved) : {
         storeName: 'RBS Alimentos',
-        whatsappNumber: '5535999999999',
+        whatsappNumber: '5573999010809',
         adminPassword: 'admin123',
       };
     } catch {
       return {
         storeName: 'RBS Alimentos',
-        whatsappNumber: '5535999999999',
+        whatsappNumber: '5573999010809',
         adminPassword: 'admin123',
       };
     }

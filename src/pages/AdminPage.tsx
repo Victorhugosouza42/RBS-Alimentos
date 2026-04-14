@@ -526,9 +526,9 @@ export default function AdminPage() {
                     value={settingsForm.whatsappNumber}
                     onChange={e => setSettingsForm(s => ({ ...s, whatsappNumber: e.target.value }))}
                     className="w-full px-4 py-2.5 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-300"
-                    placeholder="5535999999999"
+                    placeholder="5573999010809"
                   />
-                  <p className="text-xs text-slate-400 mt-1">Ex: 5535999999999 (sem + ou espaços)</p>
+                  <p className="text-xs text-slate-400 mt-1">Ex: 5573999010809 (sem + ou espaços)</p>
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-slate-700 mb-1">Senha de Administrador</label>

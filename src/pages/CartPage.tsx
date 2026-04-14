@@ -63,7 +63,7 @@ export default function CartPage() {
     msg += `\n\n📅 ${new Date().toLocaleString('pt-BR')}`;
 
     const encodedMsg = encodeURIComponent(msg);
-    const whatsappUrl = `https://wa.me/${settings.73999010809}?text=${encodedMsg}`;
+    const whatsappUrl = `https://wa.me/${settings.whatsappNumber}?text=${encodedMsg}`;
     window.open(whatsappUrl, '_blank');
   };
 
